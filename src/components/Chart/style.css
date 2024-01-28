@@ -1,0 +1,18 @@
+.chart-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 1rem;
+}
+.chart-analytics,
+.chart-spendings {
+  flex: 1;
+  padding: 1rem;
+  box-shadow: var(--shadow);
+  border-radius: 0.5rem;
+}
+.chart > h2 {
+  font-weight: 500;
+}
